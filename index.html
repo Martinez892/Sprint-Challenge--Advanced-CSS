@@ -19,19 +19,35 @@
  <!-- navigation code here -->
 
   <div class="container home">
-
-    <header class="intro">
+      <header>
+          <h1>SpaceWalkers</h1>
+          <nav>
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+          <a href="#">Sign In</a>
+          </nav>
+        </header>
        <!-- image code here -->
+       <section class="space" style="width: 120%; margin-left: -2%; margin-top: -8%;">
+  <img src="img/main-header.png" alt="space">
+       </section style="width: 122%; margin-left: -3%;">
 
-      <h2>Lift Off</h2>
-    
-      <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
-    </header>
+  <section class="tophead">
+    <h2>Lift Off</h2>
+     <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
+  </section>
+  
 
-    <section class="space-images">
-        <img src="img/blast.png" class="blast" alt="Rocket blasting off">
+    <section class="space-images" style="display: flex; width: 124%; margin-left: -4%;">
+     <div class="img1" style= "margin: 0px 20px; width: 80%;";><img src="img/blast.png" class="blast" alt="Rocket blasting off"></div>
+    <div class="img2" style="margin: 0px 20px; width: 80%;">
         <img src="img/sky.png" class="sky" alt="Space sky image">
+    </div>
+    <div class="img3" style="margin: 0px 20px; width: 80%;">
         <img src="img/launch.png" class="launch" alt="Launching rocket">
+    </div>
     </section>
    
     <section class="visit-planets">
@@ -43,7 +59,7 @@
       <p>Which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.</p>
     </section>
     
-    <section class="walk">
+    <section class="walk" style="display: flex;border-top: 1px solid gray;">
       <div class="walk-text">
         <h3>Let's Go For A Walk</h3>
 
@@ -51,10 +67,9 @@
       
         <p>Suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
       
-        <div class="btn">
+        <button class="btn">
           Sign Up
-        </div>
-      </div>
+        </button>
       
       <div class="walk-img">
           <img src="img/space-walk.png" alt="Space walking astronaut">
@@ -62,7 +77,7 @@
 
     </section>
 
-    <footer>
+    <footer class="footer">
       <p>Copyright SpaceWalkers 2018</p>
     </footer>
 
