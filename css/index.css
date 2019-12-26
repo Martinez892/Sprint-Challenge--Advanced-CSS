@@ -148,14 +148,6 @@ margin-left:  -11%;
       width: 100%;
   } 
   }
-
-@media(max-width: 500px){
-  .walk img{
-    display: flex;
-    margin: 6%;
-    margin-left: 18%;
-  }
-}
 @media(max-width: 500px){
 .footer{
     color:black; 
@@ -200,7 +192,8 @@ margin-left:  -11%;
 
 .walk img{
   margin-left: 38%;
-  margin-top: 26%;
+  margin-top: 30%;
+  padding-left: 9%;
 }
 
 .space img{
@@ -219,5 +212,39 @@ margin-left:  -11%;
   @media(max-width: 500px){
     header h1{
       margin-left: -7%;
+    }
+  }
+
+  @media(max-width: 500px){
+    .img2{
+      display: none;
+    }
+  }
+
+  @media(max-width: 500px){
+    .img3{
+      display: none;
+    }
+  }
+
+  @media(max-width: 500px){
+    .blast{
+      width: 118%;
+      margin-left: -12%;
+    }
+  }
+
+  @media(max-width: 500px){
+    .img4{
+      width: 118%;
+      margin-left: -12%;
+    }
+  }
+
+  @media(max-width: 500px){
+    .walk img{
+      width: 89%;
+      margin-left: 2%;
+      margin-top: 5%;
     }
   }
