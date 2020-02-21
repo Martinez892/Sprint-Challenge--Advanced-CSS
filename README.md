@@ -33,14 +33,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+}An Adaptive websites adapt to the width of the browser at a specific points.Responsive websites respond to the size of the browser at any given point. 
 
 2. Describe what it means to be mobile first vs desktop first.
+}mobile first means designing an online experience for mobile before designing it for the desktop Web—or any other device. desktop fisrt means designing an online experience for desktop before designing it fot mobile.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+}When specified the font-size property of the root element, the rem units refer to the property's initial value.
 
 4. How would you describe preprocessing to someone new to CSS?
+}CSS preprocessors are scripting languages that extend the default capabilities of CSS. They enable us to use logic in our CSS code, such as variables, nesting, inheritance, mixins, functions, and mathematical operations. CSS preprocessors make it easy to automate repetitive tasks, reduce the number of errors and code bloat, create reusable code snippets. Each CSS preprocessor has its own syntax that they compile into regular CSS so that browsers can render it on the client side.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+}My favorite concept right now is nesting because you can mirror your HTML file and your styling. It helps me track my selectors and organize my styles but I'm still getting used to it. The least favorite is the escaping.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
